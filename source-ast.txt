@@ -1,6 +1,8 @@
 for (; a && b; a++) {
     if (c) {
-        doStuff()
+        doStuff();
+    } else {
+        doOtherStuff();
     }
-    doOtherStuff()
+    doYetAnotherStuff();
 }
